@@ -7,45 +7,66 @@
     <link rel="stylesheet" href="mat.css">
 </head>
 <body>
-    <h1>Contas matemáticas</h1>
 
-   <section>
+    <h1>Contas matemáticas</h1>
+ <main>
+     <section>
     <h2>Soma</h2>
-        <label for="n1">Primeiro número</label><br>
-        <input type="text" id="n1" placeholder="Digite o primeiro número"><br>
-        <label for="n2">Segundo número</label><br>
-        <input type="text" id="n2" placeholder="Digite o segundo número"><br>
-        <button onclick="somar()">SOMAR</button><br>
+        <label for="n1">Primeiro número</label>
+        <input type="text" id="n1" placeholder="Digite o primeiro número">
+        <label for="n2">Segundo número</label>
+        <input type="text" id="n2" placeholder="Digite o segundo número">
+        <button onclick="somar()">SOMAR</button>
         <p>Resultado: <sapan id = "res"></sapan></p>
    </section>
    <section>
     <h2>Subtração</h2>
-    <label for="n3">Primeiro número</label><br>
-    <input type="text" id="n3" placeholder="Digite o primeiro número"><br>
-    <label for="n4">Segundo número</label><br>
-    <input type="text" id="n4" placeholder="Digite o segundo número"><br>
-    <button onclick="Subtração()">SUBTRAIR</button><br>
+    <label for="n3">Primeiro número</label>
+    <input type="text" id="n3" placeholder="Digite o primeiro número">
+    <label for="n4">Segundo número</label>
+    <input type="text" id="n4" placeholder="Digite o segundo número">
+    <button onclick="Subtração()">SUBTRAIR</button>
     <p>Resultado: <sapan id = "sub"></sapan></p>
    </section>
    <section>
     <h2>Multiplicação</h2>
-    <label for="n5">Primeiro número</label><br>
-    <input type="text" id="n5" placeholder="Digite o primeiro número"><br>
-    <label for="n6">Segundo número</label><br>
-    <input type="text" id="n6" placeholder="Digite o segundo número"><br>
-    <button onclick="Multiplicação()">MULTIPLICAR</button><br>
+    <label for="n5">Primeiro número</label>
+    <input type="text" id="n5" placeholder="Digite o primeiro número">
+    <label for="n6">Segundo número</label>
+    <input type="text" id="n6" placeholder="Digite o segundo número">
+    <button onclick="Multiplicação()">MULTIPLICAR</button>
     <p>Resultado: <sapan id = "mult"></sapan></p>
    </section>
    <section>
     <h2>Divisão</h2>
-    <label for="n7">Primeiro número</label><br>
-    <input type="text" id="n7" placeholder="Digite o primeiro número"><br>
-    <label for="n8">Segundo número</label><br>
-    <input type="text" id="n8" placeholder="Digite o segundo número"><br>
-    <button onclick="divisao()">DIVIDIR</button><br>
+    <label for="n7">Primeiro número</label>
+    <input type="text" id="n7" placeholder="Digite o primeiro número">
+    <label for="n8">Segundo número</label>
+    <input type="text" id="n8" placeholder="Digite o segundo número">
+    <button onclick="divisao()">DIVIDIR</button>
     <p>Resultado: <sapan id = "div"></sapan></p>
    </section>
 
-   <script src ="mat.js"></script>
+   <section>
+    <h2>Média</h2>
+    <input type="text" id = "m1" placeholder="Digite sua primeira nota">
+    <input type="text" id = "m2" placeholder="Digite sua segunda nota">
+    <input type="text" id = "m3" placeholder="Digite sua terceira nota">
+    <input type="text" id = "m4" placeholder="Digite sua quarta nota">
+    <input type="text" id = "m5" placeholder="Digite sua quinta nota">
+    <button onclick ="media()">Calcular</button>
+    <p id= "respMedia"></p>
+    <p id="msg"></p>
+   </section>
+   <section>
+    <h2>IMC</h2>
+    <input type="text" id = "p" placeholder="Digite seu peso">
+    <input type="text" id = "a" placeholder="Digite sua altura">
+    <button onclick= "mediaImc()">Calcular</button>
+    <p id= "resImc"></p>
+    <p id = "mc"></p>
+   </section>
+</main>
+  <script src ="mat.js"></script>
 </body>
 </html>
