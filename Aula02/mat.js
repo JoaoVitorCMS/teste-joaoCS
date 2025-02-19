@@ -81,4 +81,17 @@ function somar(){
             resImc.textContent = imc.toFixed(1)
         }
     }
+    function idade(){
+        var i = parseFloat(document.getElementById("i").value)
+        var resIdade = document.getElementById("resIdade")
+        var msg1 = document.getElementById("msg1")
+        var calculo = 2025 - i 
+        if(calculo >= 18){
+            msg1.textContent = "Entrada liberada"
+            msg1.style.color = "blue"
+        }else {
+            msg1.textContent = "Entrada negada"
+            resIdade.textContent = i.toFixed(1)
+        }
+    }
    
