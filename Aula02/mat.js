@@ -54,8 +54,13 @@ function somar(){
         var a = parseFloat(document.getElementById("a").value)
         var resImc = document.getElementById("resImc")
         var mc = document.getElementById("mc")
+        if(isNaN(p) || isNaN(a)){
+            resImc.textContent = "Digite apenas número!"
+            document.getElementById("mc").textContent = " "
+            return
+        }
         var imc = p / ( a * a)
-        if(imc >= 40.0){
+         if(imc >= 40.0){
             mc.textContent = "Obesidade III"
             mc.style.color = "Red"
             resImc.textContent = imc.toFixed(1)
@@ -85,9 +90,16 @@ function somar(){
         var i = parseFloat(document.getElementById("i").value)
         var resIdade = document.getElementById("resIdade")
         var msg1 = document.getElementById("msg1")
-        var calculo = 2025 - i 
+        if(isNaN(i)){
+            resIdade.textContent = "Digite apenas numbers🚫"
+            msg1.style.color = "red"
+            return
+        }
+        const thisYear = new Date().getFullYear();
+        var calculo = thisYear - i 
         if(calculo >= 18){
             msg1.textContent = "Entrada liberada"
+            resIdade.textContent = i.toFixed(1)
             msg1.style.color = "blue"
         }else {
             msg1.textContent = "Entrada negada"
