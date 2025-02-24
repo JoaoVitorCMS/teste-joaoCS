@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    gap: 4vh;
+    padding: 20px 40px ;
+}
