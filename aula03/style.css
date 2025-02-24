@@ -14,13 +14,17 @@ section{
 
 
 #s1{
+    background-image: url('./assents/imgmelhor1.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 80px;
     flex-wrap: wrap;
-    gap: 2vw;
-    background-image: url("./assents/wallpaper2.jpg");
+    gap: 2vw; 
 }
 
 .s1-left{
@@ -57,7 +61,7 @@ section{
 }
 
 #s2{
-    background-image: url("./assents/fundoS2.jpg");
+    background-image: url("./assents/img2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffff;
@@ -70,11 +74,50 @@ section{
     flex-wrap: wrap;
 }
 
-.cartao{
-    background-color: #020202a9;
+.cartao1{
+    background-color: #0059dfa9;
     width: 16rem;
     height: 450px;
-    border: 2px solid #ffff;
+    border: 2px solid #fc7a00;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 150ms ease-in-out;
+}
+.cartao2{
+    background-color: #0059dfa9;
+    width: 16rem;
+    height: 450px;
+    border: 2px solid #ffee00;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 150ms ease-in-out;
+}
+.cartao3{
+    background-color: #0059dfa9;
+    width: 16rem;
+    height: 450px;
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 150ms ease-in-out;
+}
+.cartao4{
+    background-color: #0059dfa9;
+    width: 16rem;
+    height: 450px;
+    border: 2px solid #00e466;
     border-radius: 10px;
     padding: 10px;
     display: flex;
@@ -84,7 +127,21 @@ section{
     transition: all 150ms ease-in-out;
 }
 
-.cartao:hover{
+.cartao1:hover{
+    filter: grayscale(0);
+    transform: scale(1.1)
+}
+
+.cartao2:hover{
+    filter: grayscale(0);
+    transform: scale(1.1)
+}
+.cartao3:hover{
+    filter: grayscale(0);
+    transform: scale(1.1)
+}
+
+.cartao4:hover{
     filter: grayscale(0);
     transform: scale(1.1)
 }
@@ -121,12 +178,12 @@ section{
 }
 
 .accordion-button{
-    background: #000000df !important;
+    background: #0059dfa9 !important;
     color: white  !important;
 }
 
 .accordion-item{
-    background: #000000a4 !important;
+    background: gray !important;
     color: white  !important;
 }
 
@@ -145,7 +202,7 @@ section{
     align-items: center;
     justify-content: center;
     color: white;
-    background-color: black;
+    background-color: #0059dfa9;
     width: 300px;
     padding: 20px;
     border-radius: 5px;
@@ -187,7 +244,7 @@ section{
     align-items: center;
     justify-content: center;
     gap: 20px;
-    background-color: black;
+    background-color: #e1e7ebb6;
     min-height: 80px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-top: 10vh;
