@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#4ef097, #3ac172); /* Adicionando direção ao gradiente */
+}
+
+section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    padding-top: 80px;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.wrap-img {
+    width: 400px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.cartao1 {
+    background-color: #0059dfa9;
+    width: 16rem;
+    height: 450px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 150ms ease-in-out;
+}
+
+.cartao2 {
+    background-color: #0059dfa9;
+    width: 16rem;
+    height: 450px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 150ms ease-in-out;
+}
+
+.cartao3 {
+    background-color: #0059dfa9;
+    width: 16rem;
+    height: 450px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 150ms ease-in-out;
+}
+
+.cartao4 {
+    background-color: #0059dfa9;
+    width: 16rem;
+    height: 450px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 150ms ease-in-out;
+}
+
+.cartao1:hover, .cartao2:hover, .cartao3:hover, .cartao4:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+.cartao1:hover {
+    background: linear-gradient(to bottom, rgb(249, 253, 0) 50%, rgb(255, 255, 255) 50%);
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.cartao2:hover {
+    background: linear-gradient(to bottom, rgb(110, 0, 28) 50%, rgb(10, 1, 143) 50%);
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.cartao3:hover {
+    background: linear-gradient(to bottom, rgb(255, 0, 0) 50%, rgb(255, 217, 5) 50%); 
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.cartao4:hover {
+    background: linear-gradient(to bottom, red 50%, blue 50%); 
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+
+.wrap-img-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.wrap-info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    max-height: 300px;
+}

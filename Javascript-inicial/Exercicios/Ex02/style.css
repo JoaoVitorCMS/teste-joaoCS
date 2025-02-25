@@ -4,8 +4,36 @@
     box-sizing: border-box;
 }
 
-h2{
-    width: 100%;
-    text-align: center;
-   background-image: url('./assets/img1.jfif');
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f5f5f5;
 }
+
+
+.banner {
+    background-image: url(./assets/img1.jfif);
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    text-align: center; 
+    padding: 100px; 
+    width: 50%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 50vh;
+    
+ 
+}
+
+.texto {
+    text-align: center;
+    padding: 10px;
+    text-align: center; 
+    width: 50%;
+}
+
