@@ -21,7 +21,7 @@ body {
     color: white; 
     text-align: center; 
     padding: 100px; 
-    width: 50%; 
+    width: 100%; 
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -31,9 +31,10 @@ body {
 }
 
 .texto {
+    background-color: antiquewhite;
     text-align: center;
     padding: 10px;
     text-align: center; 
-    width: 50%;
+    width: 100%;
 }
 

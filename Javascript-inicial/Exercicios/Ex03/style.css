@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(#4ef097, #3ac172); 
+    background:darkgreen; 
 }
 
 section {
@@ -82,10 +82,6 @@ section {
     transition: all 150ms ease-in-out;
 }
 
-.cartao1:hover, .cartao2:hover, .cartao3:hover, .cartao4:hover {
-    filter: grayscale(0);
-    transform: scale(1.1);
-}
 .cartao1:hover {
     background: linear-gradient(to bottom, rgb(249, 253, 0) 50%, rgb(255, 255, 255) 50%);
     filter: grayscale(0);
@@ -126,4 +122,14 @@ section {
     justify-content: center;
     min-height: 300px;
     max-height: 300px;
+}
+button{
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 50px;
 }
