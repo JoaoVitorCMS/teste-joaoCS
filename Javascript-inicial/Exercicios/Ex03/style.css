@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(#4ef097, #3ac172); /* Adicionando direção ao gradiente */
+    background: linear-gradient(#4ef097, #3ac172); 
 }
 
 section {
