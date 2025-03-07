@@ -1,4 +1,4 @@
-function enviar(){
+ function enviar(){
     document.getElementById("nome").style.border = "1px solid black"
 document.getElementById("assunto").style.border = "1px solid black"
 const nome = document.getElementById("nome").value
