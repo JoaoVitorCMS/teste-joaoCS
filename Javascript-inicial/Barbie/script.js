@@ -19,13 +19,14 @@ window.location.href = `https://wa.me/5541998245828?text=${msg}`
 function toggleMute() {
     var music = document.getElementById("background-music");
     var button = document.getElementById("mute-button");
+    var icon = document.getElementById("mute-icon");
     
     if (music.muted) {
         music.muted = false;
-        button.textContent = "🔊"; 
+        icon.src = "./Assets/musical-note.png";
     } else {
         music.muted = true;
-        button.textContent = "🔇"; 
+        icon.src = "./Assets/mute.png";
     }
 }
 

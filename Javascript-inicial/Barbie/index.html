@@ -16,7 +16,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -34,188 +33,190 @@
           <a class="nav-link" href="#s3">Profissões</a>
           <a class="nav-link" href="#s4">Personagens</a>
           <a class="nav-link" href="#s5">Contatos</a>
+          <button id="mute-button" onclick="toggleMute()">
+            <img id="mute-icon" class="img-logo" src="./Assets/musical-note.png" alt="musica"></button>
         </div>
       </div>
     </div>
   </nav>
- 
-    <section id="s1">
-      <div class="s1-img">
-        <div class="wrap-img">
-          <img class="img-s1" src="./Assets/barbie.webp" alt="imagem apresentacao">
+  <section id="s1">
+    <div class="s1-img">
+      <div class="wrap-img">
+        <img class="img-s1" src="./Assets/barbie (1).webp" alt="imagem apresentacao">
+      </div>
+    </div>
+    <div class="s1-title">
+      <h2 class="title-name">Barbie</h2>
+      <p class="texto-barbie">Barbie é um filme estadunidense dos gêneros comédia e fantasia dirigido por Greta
+        Gerwig,
+        com o roteiro co-escrito com Noah Baumbach. O filme é baseado na franquia
+        de bonecas Barbie, produzida pela empresa multinacional Mattel,
+        sendo o primeiro filme da franquia em formato de live-action depois
+        de uma série de filmes em animação diretos para digital video disc
+        e séries de televisão. Estrelado por Margot Robbie e Ryan Gosling
+        como Barbie e Ken, respectivamente, o filme ainda apresenta um elenco diverso.</p>
+    </div>
+  </section>
+  <section id="s2">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Assets/background (1).png " class="d-block w-100" alt="imagem1">
+        </div>
+        <div class="carousel-item">
+          <img src="./Assets/barbie_ken_liveaction_capa (1).jpg" class="d-block w-100" alt="imagem2">
+        </div>
+        <div class="carousel-item">
+          <img src="./Assets/maxresdefault.jpg" class="d-block w-100" alt="imagem3">
         </div>
       </div>
-      <div class="s1-title">
-        <h2 class="title-name">Barbie</h2>
-        <p class="texto-barbie">Barbie é um filme estadunidense dos gêneros comédia e fantasia dirigido por Greta
-          Gerwig,
-          com o roteiro co-escrito com Noah Baumbach. O filme é baseado na franquia
-          de bonecas Barbie, produzida pela empresa multinacional Mattel,
-          sendo o primeiro filme da franquia em formato de live-action depois
-          de uma série de filmes em animação diretos para digital video disc
-          e séries de televisão. Estrelado por Margot Robbie e Ryan Gosling
-          como Barbie e Ken, respectivamente, o filme ainda apresenta um elenco diverso.</p>
-      </div>
-    </section>
-    <section id="s2">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./Assets/background.png" class="d-block w-100" alt="imagem1">
-          </div>
-          <div class="carousel-item">
-            <img src="./Assets/barbie_ken_liveaction_capa.jpg" class="d-block w-100" alt="imagem2">
-          </div>
-          <div class="carousel-item">
-            <img src="./Assets/maxresdefault.jpg" class="d-block w-100" alt="imagem3">
-          </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section id="s3">
+    <div class="titulo-cartao">
+      <h2>Profissões da Barbie</h2>
+      <p>Algumas das profissões que aparece no filme</p>
+    </div>
+    <div class="wrap-cards">
+      <div class="cartao">
+        <div class="wrap-img-card">
+          <img src="./Assets/medica.jpg" alt="Barbie Medica" width="80px" height="auto">
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-    <section id="s3">
-      <div class="titulo-cartao">
-        <h2>Profissões da Barbie</h2>
-        <p>Algumas das profissões que aparece no filme</p>
-      </div>
-      <div class="wrap-cards">
-        <div class="cartao">
-          <div class="wrap-img-card">
-            <img src="./Assets/medica.jpg" alt="Barbie Medica" width="80px" height="auto">
-          </div>
-          <div class="wrap-info-card">
-            <h3>Médica</h3>
-            <p>A Barbie médica do filme Barbie 2023 é uma representação inspiradora
-              de competência, empatia e dedicação. Como profissional de saúde,
-              ela é uma personagem que combina o conhecimento técnico com um imenso
-              carinho pelo cuidado dos outros.</p>
-          </div>
-        </div>
-        <div class="cartao">
-          <div class="wrap-img-card">
-            <img src="./Assets/barbie-jornalista.png" alt="Barbie Jornalista" width="80px" height="auto">
-          </div>
-          <div class="wrap-info-card">
-            <h3>Jornalista</h3>
-            <p>A Barbie jornalista do filme Barbie 2023 é uma profissional aguerrida,
-              dedicada à busca pela verdade e à informação responsável.
-              Com uma câmera na mão e um bloco de notas sempre à disposição,
-              ela se destaca por seu trabalho investigativo.</p>
-          </div>
-        </div>
-        <div class="cartao">
-          <div class="wrap-img-card">
-            <img src="./Assets/escritora.jpg" alt="Barbie Escritora" width="80px" height="auto">
-          </div>
-          <div class="wrap-info-card">
-            <h3>Escritora</h3>
-            <p>Como escritora, a Barbie do filme 2023 revela sua criatividade e
-              imaginação sem limites. Suas palavras têm o poder de criar mundos inteiros,
-              inspirando seus leitores a sonharem e refletirem sobre a vida e a humanidade.</p>
-          </div>
-        </div>
-        <div class="cartao">
-          <div class="wrap-img-card">
-            <img src="./Assets/barbie-juiza.png" alt="Barbie Juiza" width="80px" height="auto">
-          </div>
-          <div class="wrap-info-card">
-            <h3>Juiza</h3>
-            <p>A Barbie juíza da Suprema Corte do filme Barbie 2023 é um exemplo de autoridade,
-              justiça e equidade. Como uma líder imbatível no mais alto tribunal do país,
-              ela trabalha incansavelmente para garantir que a justiça seja feita de forma
-              imparcial e que os direitos de todos sejam respeitados.</p>
-          </div>
+        <div class="wrap-info-card">
+          <h3>Médica</h3>
+          <p>A Barbie médica do filme Barbie 2023 é uma representação inspiradora
+            de competência, empatia e dedicação. Como profissional de saúde,
+            ela é uma personagem que combina o conhecimento técnico com um imenso
+            carinho pelo cuidado dos outros.</p>
         </div>
       </div>
-    </section>
-    <section id="s4">
-      <div class="titulo-cartao-2">
-        <h2>Personagens da Barbie</h2>
-        <p>Alguns dos personagens da Barbie</p>
-      </div>
-      <div class="wrap-cards">
-        <div class="cartao">
-          <div class="wrap-img-card">
-            <img src="./Assets/foto-ken.webp" alt="Barbie Medica" width="100px" height="auto">
-          </div>
-          <div class="wrap-info-card">
-            <h3>Ken</h3>
-            <p>Ken é o fiel amigo e parceiro de Barbie, conhecido por sua aparência
-              charmosa e personalidade carinhosa. Ele é muitas vezes retratado
-              como um personagem leal, gentil e aventureiro, sempre ao lado de
-              Barbie para apoiá-la em suas jornadas.</p>
-          </div>
+      <div class="cartao">
+        <div class="wrap-img-card">
+          <img src="./Assets/barbie-jornalista.png" alt="Barbie Jornalista" width="80px" height="auto">
         </div>
-        <div class="cartao">
-          <div class="wrap-img-card">
-            <img src="./Assets/allan.webp" alt="Barbie Jornalista" width="80px" height="auto">
-          </div>
-          <div class="wrap-info-card">
-            <h3>Allan</h3>
-            <p>Allan é o amigo de Ken e também um personagem querido nos filmes da Barbie.
-              Ele é mais introvertido e um pouco mais descontraído em relação a Ken,
-              mas sempre tem boas intenções. </p>
-          </div>
-        </div>
-        <div class="cartao">
-          <div class="wrap-img-card">
-            <img src="./Assets/barbie.webp" alt="Barbie Escritora" width="80px" height="auto">
-          </div>
-          <div class="wrap-info-card">
-            <h3>Barbie</h3>
-            <p>Barbie é a protagonista carismática e inspiradora dos filmes,
-              representando coragem, determinação e inteligência. Ao longo
-              das diversas histórias, ela é mostrada como uma personagem multifacetada,
-              com uma infinidade de profissões, como médica, professora, astronauta e até princesa.</p>
-          </div>
-        </div>
-        <div class="cartao">
-          <div class="wrap-img-card">
-            <img src="./Assets/gloria.jpg" alt="Barbie Juiza" width="80px" height="auto">
-          </div>
-          <div class="wrap-info-card">
-            <h3>Gloria</h3>
-            <p>Gloria é uma personagem forte e independente nos filmes da Barbie,
-              representando muitas vezes a figura materna ou uma amiga confiável.
-              Ela é geralmente mostrada como uma pessoa sábia, compreensiva e
-              muito empática.</p>
-          </div>
+        <div class="wrap-info-card">
+          <h3>Jornalista</h3>
+          <p>A Barbie jornalista do filme Barbie 2023 é uma profissional aguerrida,
+            dedicada à busca pela verdade e à informação responsável.
+            Com uma câmera na mão e um bloco de notas sempre à disposição,
+            ela se destaca por seu trabalho investigativo.</p>
         </div>
       </div>
-    </section>
-    <section id="s5">
-      <h2>Contato</h2>
-      <div class="formulario">
-          <label for="nome">Nome</label>
-          <input type="text" placeholder="Digite seu Nome" id="nome">
-          <label for="assunto">Assunto</label>
-          <input type="text" placeholder="Digite o Assunto" id="assunto">
-          <br>
-          <button onclick="enviar()">Enviar</button>
+      <div class="cartao">
+        <div class="wrap-img-card">
+          <img src="./Assets/escritora.jpg" alt="Barbie Escritora" width="80px" height="auto">
+        </div>
+        <div class="wrap-info-card">
+          <h3>Escritora</h3>
+          <p>Como escritora, a Barbie do filme 2023 revela sua criatividade e
+            imaginação sem limites. Suas palavras têm o poder de criar mundos inteiros,
+            inspirando seus leitores a sonharem e refletirem sobre a vida e a humanidade.</p>
+        </div>
       </div>
-    </section>
-    <footer>
-      <a target="_blank" href="https://www.instagram.com/"><img width="30px" height="auto" src="./assets/instagram.png" alt="Instagram"></a>
-      <a target="_blank" href="https://www.facebook.com/login"><img width="30px" height="auto" src="./assets/facebook.png" alt="Facebook"></a>
-      <a target="_blank" href="https://x.com/"><img width="30px" height="auto" src="./assets/twitter.png" alt="Twitter"></a>
-      <a target="_blank" href="https://www.youtube.com/watch?v=Ujs1Ud7k49M"><img width="30px" height="auto" src="./assets/youtube.png" alt="YouTube"></a>
-
+      <div class="cartao">
+        <div class="wrap-img-card">
+          <img src="./Assets/barbie-juiza.png" alt="Barbie Juiza" width="80px" height="auto">
+        </div>
+        <div class="wrap-info-card">
+          <h3>Juiza</h3>
+          <p>A Barbie juíza da Suprema Corte do filme Barbie 2023 é um exemplo de autoridade,
+            justiça e equidade. Como uma líder imbatível no mais alto tribunal do país,
+            ela trabalha incansavelmente para garantir que a justiça seja feita de forma
+            imparcial e que os direitos de todos sejam respeitados.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="s4">
+    <div class="titulo-cartao-2">
+      <h2>Personagens da Barbie</h2>
+      <p>Alguns dos personagens da Barbie</p>
+    </div>
+    <div class="wrap-cards">
+      <div class="cartao">
+        <div class="wrap-img-card">
+          <img src="./Assets/foto-ken.webp" alt="Barbie Medica" width="100px" height="auto">
+        </div>
+        <div class="wrap-info-card">
+          <h3>Ken</h3>
+          <p>Ken é o fiel amigo e parceiro de Barbie, conhecido por sua aparência
+            charmosa e personalidade carinhosa. Ele é muitas vezes retratado
+            como um personagem leal, gentil e aventureiro, sempre ao lado de
+            Barbie para apoiá-la em suas jornadas.</p>
+        </div>
+      </div>
+      <div class="cartao">
+        <div class="wrap-img-card">
+          <img src="./Assets/allan.webp" alt="Barbie Jornalista" width="80px" height="auto">
+        </div>
+        <div class="wrap-info-card">
+          <h3>Allan</h3>
+          <p>Allan é o amigo de Ken e também um personagem querido nos filmes da Barbie.
+            Ele é mais introvertido e um pouco mais descontraído em relação a Ken,
+            mas sempre tem boas intenções. </p>
+        </div>
+      </div>
+      <div class="cartao">
+        <div class="wrap-img-card">
+          <img src="./Assets/Barbie1.webp" alt="Barbie Escritora" width="80px" height="auto">
+        </div>
+        <div class="wrap-info-card">
+          <h3>Barbie</h3>
+          <p>Barbie é a protagonista carismática e inspiradora dos filmes,
+            representando coragem, determinação e inteligência. Ao longo
+            das diversas histórias, ela é mostrada como uma personagem multifacetada,
+            com uma infinidade de profissões, como médica, professora, astronauta e até princesa.</p>
+        </div>
+      </div>
+      <div class="cartao">
+        <div class="wrap-img-card">
+          <img src="./Assets/gloria.jpg" alt="Barbie Juiza" width="80px" height="auto">
+        </div>
+        <div class="wrap-info-card">
+          <h3>Gloria</h3>
+          <p>Gloria é uma personagem forte e independente nos filmes da Barbie,
+            representando muitas vezes a figura materna ou uma amiga confiável.
+            Ela é geralmente mostrada como uma pessoa sábia, compreensiva e
+            muito empática.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="s5">
+    <h2>Contato</h2>
+    <div class="formulario">
+      <label for="nome">Nome</label>
+      <input type="text" placeholder="Digite seu Nome" id="nome">
+      <label for="assunto">Assunto</label>
+      <input type="text" placeholder="Digite o Assunto" id="assunto">
+      <br>
+      <button onclick="enviar()">Enviar</button>
+    </div>
+  </section>
+  <footer>
+    <a target="_blank" href="https://www.instagram.com/barbie/"><img width="30px" height="auto" src="./assets/instagram (1).png"
+        alt="Instagram"></a>
+    <a target="_blank" href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Foficialbarbiebrasil%2F%3Flocale%3Dpt_BR"><img width="30px" height="auto" src="./assets/facebook (1).png"
+        alt="Facebook"></a>
+    <a target="_blank" href="https://x.com/Barbie?"><img width="30px" height="auto" src="./assets/twitter (1).png"
+        alt="Twitter"></a>
+    <a target="_blank" href="https://www.youtube.com/watch?v=Ujs1Ud7k49M"><img width="30px" height="auto" src="./assets/youtube (1).png" alt="YouTube"></a>
+        <a target="_blank" href="https://shop.mattel.com/pt-br/pages/barbie?utm_medium=GDN&utm_campaign=Barbie&utm_term=BR&utm_content=Search&utm_source_platform=GADS&utm_creative_format=RSA&utm_marketing_tactic=FULL&gad_source=1&gclid=CjwKCAiArKW-BhAzEiwAZhWsIL4SfR7_i4QVNTNWL_nsjh-TKsdOgxetosXOoiPB1i_6Rrc6Z6d4yBoCeYgQAvD_BwE"><img width="30px" height="auto"
+          src="./assets/Mattel_logo.svg.png" alt="Mattel"></a>
   </footer>
   <audio id="background-music" loop>
-    <source src="./Assets/WhatsApp Audio 2025-02-26 at 21.58.15.mpeg" type="audio/mpeg">
+    <source src="./Assets/WhatsApp Audio 2025-02-26 at 21.58.15 (1).mpeg" type="audio/mpeg">
     Seu navegador não suporta o elemento de áudio.
-</audio>
-<button id="mute-button" onclick="toggleMute()">🔊</button>
-
+  </audio>
 </body>
-
 </html>
